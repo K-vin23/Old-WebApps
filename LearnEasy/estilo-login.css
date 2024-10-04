@@ -1,0 +1,807 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-image: linear-gradient(to right,
+ #86344a 0%,
+ #bb4d60 25%,
+ #ff727f 50%,
+ #ffa5a4 100%);
+	font-family: arial, helvetica;
+	background-size: 100% 100% no-repeat;
+}
+#Main{
+	background-image: none;
+}
+.Main.expanded{
+ margin-left: 5%;
+}
+.L-head img{
+   width: 26%;
+   height: 130px;
+}
+/* CSS-Login */
+#Cab-logo{
+	width: 100%;
+	background-color: rgb(255, 255, 255);
+	height: 120px;
+	margin-top: 15px;
+}
+#Cab-logo img{
+	width: 25%;
+	height: 120px;
+
+}
+#Log{
+	background-color: rgba(255, 255, 255, 0.9);
+	width: 55%;
+	height: 400px;
+	margin-left: 22%;
+	margin-top: 3%;
+	border-radius: 20px;
+}
+#Log h1{
+	padding-top: 5%;
+	font-family: verdana;
+	font-weight: 500;
+	font-size: 25px;
+	margin-left: 30%;
+}
+#Log h2{
+	font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+#Log .info{
+	float: left;
+	width: 40%;
+	height: 100px;
+	margin-left: 2%;
+}
+#Log .info h1{
+	font-size: 25px;
+	font-family: verdana;
+	text-align: left;
+	margin-left: 15%;
+}
+#Log .info p{
+	border: 2px solid rgba(255,115,128,255);
+	width: 85%;
+	margin-left: 5%;
+	margin-top: 3%;
+	padding: 2% 2% 2% 2%;
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+}
+#Log .info img{
+	margin-top: 2%;
+	width: 100%;
+	height: 100%;
+}
+.Login{
+	float: right;
+	width: 50%;
+	margin-right: 5%;
+	margin-top: 8%;
+}
+.Login .L-Log{
+	display: block;
+	font-size: 20px;
+	font-family: cursive;
+	text-align: left;
+}
+.Login .F-Label{
+ border: 1px solid black;
+ outline: none;
+ padding-left: 1%;
+ width: 99%;
+ height: 30px;
+}
+.Login .F-Sub{
+	width: 99%;
+	margin-top: 5%;
+	margin-bottom: 1%;
+	height: 45px;
+	display: inline-block;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	transition: all 0.2s linear;
+	background: rgb(133, 52, 73);
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+}
+.Login .F-Sub:hover{
+	box-shadow: none;
+	animation: ani 0.4s ease-in-out infinite alternate; 
+}
+.Login #txt1{
+	margin-right: 50%;
+	color: #bb4d60;
+}
+@keyframes ani{
+ 0%{
+    transform: translateY(3px);
+ } 
+ 100%{
+ 	transform: translateY(5px);
+ }
+}
+#Log #redes{
+	clear: both;
+	width: 100%;
+	height: 70px;
+	margin-top: 33%;
+}
+#Log #redes img, #Log #redes h2{
+	display: inline-block;
+	font-family: 'Dosis', sans-serif;
+	font-size: 24px;
+	color: rgb(0, 0, 0);
+}
+#Log #redes img{
+	margin-left: 5%;
+	width: 5%;
+	height: 50%;
+}
+#Log #redes h2{
+	font-weight: lighter;
+}
+#Error{
+ position: absolute;
+ top: 23%;
+ left: 31%;
+ font-family: 'Raleway', sans-serif;
+ font-size: 20px;
+ text-align: center;
+ height: 26px;
+ background-color: rgba(255, 153, 153, 0.5);
+ border: 1px solid rgb(255, 51, 51);
+ border-radius: 3px;
+ width: 35%;
+ animation: error 0.6s ease-in-out;
+ font-weight: bold;
+}
+@keyframes error{
+ 0%{
+    transform: translateY(3px);
+ } 
+ 50%{
+ 	transform: translateY(5px);
+ }
+ 100%{
+ 	transform: translateY(0px);
+ }
+}
+/*Registro estudiantes */
+#registro{
+	float: none;
+	width: 100%;
+}
+#registro .L-Log{
+   width: 15%;
+   float: left;
+   margin-left: 2%;
+}
+#registro .F-Label{
+	width: 30%;
+	float: left;
+	margin-bottom: 2%;
+}
+#registro .F-Sub{
+	width: 60%;
+}
+/* Busqueda */
+.L-head{
+	width: 100%;
+	height: 110px;
+	border-bottom: 1.5px solid rgb(246.25, 123.75, 125.79);
+	margin-bottom: 25px;
+}
+#barra{
+	width: 900px;
+	height: 32px;
+	border: 2px solid rgba(255,115,128,255);
+	font-size: 19px;
+}
+#busq{
+	border: 1px solid rgba(238,137,168,255);
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background-color: rgb(255, 255, 255);
+	margin-left: 5px;}
+#busq i{
+	font-size: 17px;
+	color: rgb(61, 61, 61);
+}
+.L-head form{
+	position: absolute;
+	left: 18%;
+	top: 5%;
+}
+
+/* Usuario */
+ .Usuario{
+ 	float: left;
+ 	margin-left: 3%;
+ 	margin-top: 1%;
+ 	width: 7%;
+ 	height: 86px;
+ 	background-color: rgba(255,165,164,255);
+ 	border-radius: 100%;
+ 	border: 1px;
+ }
+ .Usuario.cerrar{
+   visibility: hidden;
+   overflow: hidden;
+ }
+ .Usuario h1{
+ 	position: absolute;
+ 	right: 4%;
+ 	top: 6%;
+ 	font-size: 20px;
+ }
+ .Usuario img{
+ 	width: 100%;
+ 	height: 100%;
+ }
+ .abrirus-btn{
+ 	position: absolute;
+ 	margin-left: 2%;
+ 	margin-top: 2%;
+ 	font-size: 30px;
+ 	cursor: pointer;
+ }
+
+/*Panel Usuario*/
+.PanelUs{
+	float: left;
+	position: fixed;
+	width: 15%;
+	height: 99%;
+	border: 3px solid rgb(246.25, 123.75, 125.79);
+	background-color: rgba(255, 255, 255, 1);
+	visibility: hidden;
+}
+.PanelUs img{
+	width: 60%;
+	height: 60%;
+	margin-left: 10%;
+	margin-top: 4%;
+}
+.PanelUs.Abierto{
+	visibility: visible;
+	z-index: 1;
+	margin-left: -5%;
+}
+#cerrar{
+	font-size: 30px;
+	float: right;
+	margin-top: 19.5%;
+	margin-right: 7%;
+}
+.PanelUs ul li{
+ list-style: none;
+ text-align: center;
+ height: 30px;
+ margin-top: 1%;
+ font-family: 'Dosis', sans-serif;
+ font-size: 20px;
+ border-bottom: 1px solid rgba(238,137,168,255);
+}
+.PanelUs a{
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+}
+#logout{
+	margin-top: 160%;
+	border-top: 1px solid rgba(238,137,168,255);
+}
+
+/* Biblioteca */
+#back{
+	width: 5%;
+	height: 30px;
+	position: relative;
+	background-image: url(imagen/back.png);
+	background-size: 100% 100%;
+	left: 15%;
+	top: 40%;
+	margin-bottom: -2.5%;
+}
+#back img{
+	width: 100%;
+	height: 100%;
+}
+.bib{
+	top: 2%;
+	left: 23%;
+	width: 6%;
+	height: 80px;
+	border: 5px solid rgba(255,115,128,255);
+	border-radius: 100%;
+	position: absolute;
+}
+.bib img{
+	width: 90%;
+	height: 90%;
+}
+.bib h1{
+	margin-left: 110%;
+	margin-top: -70%;
+	font-size: 20px;
+	font-family: 'Dosis', sans-serif;
+}
+.Bib-opcion{
+	width: 99.5%;
+	height: 20px;
+	margin-bottom: 5%;
+}
+#sel{
+  margin-bottom: 7%;
+}
+.Close{
+	visibility: hidden;
+	overflow: hidden;
+	cursor: pointer;
+}
+.Close.show{
+	visibility: visible;
+}
+.Bib-opcion ul{
+	width: 80%;
+	margin-left: 17%;
+}
+.Bib-opcion ul li{
+	display: inline-block;
+	border: 3px solid #ff727f;
+	font-family: 'Dosis', sans-serif;
+	padding: 5px 50px;
+	color: rgb(0, 0, 0);
+}
+.Bib-opcion ul li i{
+	margin-left: 5px;
+}
+.Bib-opcion .bib-select{
+	float: left;
+	border-radius: 100%;
+	width: 8%;
+	height: 95px;
+	margin-left: 14%;
+	margin-right: 1%;
+}
+.Bib-opcion .bib-select img{
+	width: 100%;
+	height: 100%;
+}
+.Bib-opcion h2{
+	font-family: 'Dosis', sans-serif;
+	font-size: 30px;
+}
+.bib-mat.show{	
+	visibility: visible;
+}
+.bib-mat{
+	visibility: hidden;
+	width: 95%;
+	height: 180%;
+	background-color: rgb(255, 255, 255, 1);
+	margin-left: 5%;
+	margin-top: 5px;
+}
+.bib-mat ul{
+	padding: 0 0 0 0;
+	margin-left:  0%;
+	width: 100%;
+	margin-right: 0%;
+}
+.bib-mat ul li a{
+	color: #000;
+}
+/* Materias */
+#mate img{
+width: 100%;
+height: 100%;
+}
+#mate h1{
+	font-size: 35px;
+	margin-top: -90%;
+}
+/* Subir contenido */
+.Subircont{
+	border: 2px solid #ff7096;
+	border-radius: 6px;
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.Subircont h2{
+	font-family: 'Dosis', sans-serif;
+	font-size: 35px;
+    text-align: center;
+}
+.Subircont input{
+	margin-left: 30%;
+	margin-top: 1%;
+}
+.Subircont textarea{
+	width: 90%;
+	height: 300px;
+	margin-top: 1%;
+	margin-left: 5%;
+	font-size: 16px;
+	border: 2px solid #ff727f;
+	border-radius: 5px;
+}
+.Subircont select{
+	width: 30%;
+	height: 30px;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 35%;
+	border-radius: 2px;
+	text-align: center;
+	border: 1px solid #bb4d60;
+}
+.Subircont #inp-title{
+	width: 90%;
+	height: 30px;
+	text-align: center;
+	margin-top: 2%;
+	margin-left: 5%;
+	border: 2px solid #ffa5a4;
+	border-radius: 5px;
+	font-size: 19px;
+}
+.Subircont #inp-env{
+	margin-left: 1%;
+	margin-top: 3%;
+	width: 98%;
+	height: 45px;
+	border: none;
+	border-top: 2px solid rgb(133, 52, 73);
+	padding-top: 1%;
+	font-size: 30px;
+	font-weight: 900;
+	font-family: 'Dosis', sans-serif;
+	background-color: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+}
+ /* Publicación */
+.Bib-publi{
+ padding: 15px 0;
+ width: 99.5%;
+}
+.Publi{
+ display: list-item;
+ list-style: none;
+ border: 3px solid #ff727f;
+ width: 62.5%;
+ margin-left: 19%;
+ margin-bottom: 3%;
+ padding: 1% 1% 1% 1%;
+ background-color: rgba(242, 242, 242, 1.0);
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#ver{
+	border: none;
+	background-color: rgb(255, 255, 255);
+	box-shadow: none;
+	width: 80%;
+	padding-bottom: 2%;
+	margin-left: 8%;
+}
+#ver #pub-usu{
+	margin-top: 0%;
+	width: 14%;
+	height: 140px;
+	margin-right: 10%;
+}
+#ver #text h4{
+	text-align: left;
+}
+.Publi button{
+	background-color: rgba(255,115,128,255);
+	border: 1px;
+	width: 40%;
+	height: 40px;
+	font-size: 20px;
+	font-family: Calibri, sans-serif;
+	margin-left: 60%;
+	margin-top: 2%;
+	cursor: pointer;
+}
+.Publi button a{
+	color: rgb(0, 0, 0);
+}
+#text{
+	margin-left: 12%;
+}
+#text h1{
+position: relative;
+font-size: 35px;
+text-align: center;
+margin-left: 30%;
+margin-bottom: 2%;
+width: 40%;
+background-color: #bb4d60;
+font-family: 'Dosis',sans-serif;
+font-weight: bold;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#text h3{
+	text-align: center;
+	margin-bottom: 10px;
+}
+#text h4{
+	text-align: left;
+}
+#pub-usu{
+	float: left;
+	border: 2px solid #ff727f;
+	border-radius: 100%;
+	width: 10%;
+	height: 70px;
+	margin-top: 3%;
+}
+#pub-usu img{
+	width: 100%;
+	height: 100%;
+}
+#pub-usu h1{
+	text-align: center;
+   font-family: Calibri, sans-serif;
+}
+.Archivo{
+   margin-top: 3%; 
+   margin-left: 25%;
+}
+.Archivo table{
+	margin-left: 14%;
+	margin-top: -5%;
+	width: 28%;
+}
+.Archivo h3{
+	float: right; 
+	margin-right: 78%; 
+	margin-top: 2%;
+}
+.Archivo td a{
+	color: rgb(143, 127, 127);
+}
+.Archivo td button{
+width: 200%;
+margin-left: 0%;
+}
+/* Panel Sug. */
+.Panel{
+   background-image: linear-gradient(to right bottom,
+ #86344a 0%,
+ #bb4d60 25%,
+ #ff727f 80%,
+ #ffa5a4 100%);
+   border-radius: 20px;
+   margin-left: 7%;
+   width: 85%;
+   height: 250px;
+}
+.Panel section{
+	position: absolute;
+	margin-top: 3%;
+   height: 170px;
+   width: 90%;
+   background-color: rgba(255, 255, 255, 1);
+}
+.Panel section img{
+	width: 40%;
+	height: 100%;
+	margin-left: 27%;
+}
+/* Materias */
+.Materias{
+	width: 100%;
+	margin-top: 4%;
+   margin-bottom: 2%;
+}
+#mat{
+ display: inline-block;
+ width: 10%;
+ height: 115px;
+ margin-left: 10%;
+}
+#mat h2{
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	color: rgb(0, 0, 0);
+}
+#mat img{
+	width: 100%;
+	height: 100%;
+}
+#mat-doc li{
+	text-align: center;
+	border-radius: 0%;
+	background-color: rgba(0, 0, 0, 0);
+	font-family: 'Dosis', sans-serif;
+	font-size: 19px;
+	width: 102px;
+	height: 20px;
+}
+#mat-doc a{
+  color: rgb(0, 0, 0);
+}
+#Doc{
+	margin-left: 25%;
+}
+#Doc li{
+	border-radius: 20px;
+	width: 105px;
+	height: 105px;
+	margin-left: 3%;
+}
+#Doc li img{
+	width: 105px;
+	height: 105px;
+}
+#title{
+	border-radius: 0%;
+	background-color: rgba(0, 0, 0, 0);
+	width: 90px;
+	height: 20px;
+	margin-left: 1.9%;
+	text-align: center;
+	font-size: 17px;
+   font-family: 'Dosis', sans-serif;
+}
+#title a{
+	color: rgb(0, 0, 0);
+}
+/* Panel De opciones */
+nav{
+	margin-top: 2%;
+	margin-left: 4%;
+	width: 80%;
+	height: 120px;
+}
+.Opcion{
+ border: 5px solid rgba(255,115,128,255);
+ width: 10%;
+ height: 100px;
+ border-radius: 100%;
+ margin-left: 12%;
+}
+.Opcion img{
+	margin-top: 7%;
+	width: 80%;
+	height: 80%;
+}
+.Opcion section{
+	width: 100%;
+}
+.Opcion h1{
+	background-color: rgba(255,115,128,255);
+	padding: 0 10px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 22px;
+	color: rgb(0, 0, 0);
+}
+/* Opciones admin */
+.Admin .Opcion{
+	display: inline-block;
+}
+/* Subir Docente */
+.subir{
+	float: right;
+	position: fixed;
+	top: 85%;
+	right: 14%;
+	width: 6%;
+	height: 70px;
+	border: none;
+	border-radius: 100%;
+	background-image: url(imagen/subir.png);
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+/* Est */
+.Est{
+	display: inline-block;
+	margin-left: 20%;
+	width: 13%;
+}
+.Est h1{
+	text-align: center;
+	font-family:'Dosis', sans-serif;
+	color: rgb(0, 0, 0);
+}
+.Est img{
+	width: 100%;
+	height: 100%;
+}
+.Est button{
+	width: 100%;
+	height: 30px;
+	margin-top: 2%;
+	border: none;
+	background-color: #993440;
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	font-family: 'Dosis', sans-serif;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+/* Chat */
+.btn-abrir{
+	font-size: 50px;
+	position: fixed;
+	top: 85%;
+	right: 5%;
+	float: right;	
+	border: none;
+	border-radius: 100%;
+	background-image: url(imagen/chat.png);
+	background-size: 100% 100%;
+	height: 70px;
+	width: 6%;
+	cursor: pointer;
+}
+.btn-cerrar{
+	font-size: 28px;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	position: fixed;
+	top: 1%;
+	right: 18.5%;
+	z-index: 2;
+	visibility: hidden;
+	background-color: rgba(255,255,255, 0);
+	border: none;
+}
+.btn-cerrar.visible{
+	visibility: visible;
+}
+.btn-abrir.hidden{
+	visibility: hidden;
+}
+.Chat.active{
+	visibility: visible;
+	position: fixed;
+}
+.Chat{
+	position: absolute;
+	clear: both;
+	width: 21%;
+	height: 99%;
+	right: 0%;
+	top: 0%;
+	border: 2px solid #ff727f;
+	background-color: rgb(255, 255, 255);
+	visibility: hidden;
+	z-index: 1;
+}
+.Chat h1{
+	text-align: center;
+	border-bottom: 1px solid rgb(0, 0, 0);
+	background-color: #ff727f;
+}
+.Chat #msg{
+	width: 250px;
+}
+.Chat form input, .Chat form button{
+   position: absolute;
+   bottom: 2%;
+   right: 4%;
+   font-size: 20px;
+}
