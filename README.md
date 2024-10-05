@@ -9,6 +9,7 @@ Library Web App for schools, Where teachers can upload varied content about diff
 
 ## El pie feliz - Shoe Store Web
 A webpage for a shoe store "El pie feliz", with the catalog of his shoes.
-![Captura de pantalla_5-10-2024_15404_localhost](https://github.com/user-attachments/assets/4227d292-2b26-4c75-9cec-165035d2e7dd)
+![Captura de pantalla_5-10-2024_16251_localhost](https://github.com/user-attachments/assets/4ff6950b-399b-4ca9-b0fc-0b9dd5f61afc)
+
 >[!WARNING]
 >This page was recovered and redesign, some fuctions don't work yet!
