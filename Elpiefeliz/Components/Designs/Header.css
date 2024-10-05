@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .grid-container{
+    padding: 10px;
+    text-align: center;
+} */
+
+/* .grid-container {
+    display: grid;
+    gap: 10px;
+} */
+
+html {
+    height: 100%;
+}
+
+.grid-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100%;
+    background-color: rgba(234, 226, 217, 0.986);
+}
+
+header {
+    width: 100%;
+    min-height: 100px;
+    max-height: 180px;
+    background-image: url(../../IMG/Elpiefeliz\ Dall-E-fondo.png);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+}
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    margin-bottom: 2px;
+}
+
+header img {
+    min-width: 12%;
+    max-width: 15%;
+    min-height: 100px;
+    max-height: 180px;
+    width: 15%;
+    height: 150%;
+}
+
+.nav {
+    align-self: center;
+    margin-left: 12%;
+    font-family: 'Courier New', Courier, serif;
+    font-size: larger;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover{
+    color: bisque;
+}
